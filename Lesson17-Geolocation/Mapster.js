@@ -36,6 +36,13 @@
           }
         });
       },
+      getCurrentPosition: function(callback) {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            callback.call(this, position));
+          });
+        }
+      },
       setPano: function(element, opts) {
         var panorama = new google.maps.StreetViewPanorama(element, opts);
         if (opts.events) {
