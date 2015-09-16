@@ -20,7 +20,7 @@
         alert('dragged');
       }
     }],
-    icon: 'http://mapicons.nicolasmollet.com/wp-content/uploads/mapicons/shape-default/color-128e4d/shapecolor-color/shadow-1/border-dark/symbolstyle-white/symbolshadowstyle-dark/gradient-no/rice.png'
-  }); 
-  
+    icon: 'mapicons/farmstand.png'
+  });
+
 }(window, window.Mapster));
